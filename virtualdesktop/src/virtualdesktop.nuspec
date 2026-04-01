@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>virtualdesktop</id>
+    <title>VirtualDesktop</title>
+    <version>1.21</version>
+    <authors>Markus Scholtes</authors>
+    <owners>zow</owners>
+    <summary>C# command line tool to manage virtual desktops in Windows 10 and Windows 11</summary>
+    <description>Command line tool to manage virtual desktops in Windows 10 and Windows 11.
+
+Supports sequential command execution where results can be piped to subsequent commands. Features include:
+- Create, remove, and switch between virtual desktops
+- Move windows between desktops
+- Pin applications/windows across all desktops
+- Query desktop status and window locations
+- Set desktop names and wallpapers (Windows 11)
+
+Includes executables for Windows 10, Windows 11, Windows 11 24H2, Server 2016, and Server 2022.</description>
+    <projectUrl>https://github.com/MScholtes/VirtualDesktop</projectUrl>
+    <tags>virtual desktop windows cli admin</tags>
+    <packageSourceUrl>https://github.com/zow/workrave-chocolatey-packages</packageSourceUrl>
+    <copyright>Copyright (c) 2025 Markus Scholtes</copyright>
+    <licenseUrl>https://github.com/MScholtes/VirtualDesktop/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Version 1.21, 2025-08-11</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
